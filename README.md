@@ -25,6 +25,7 @@ The write-up and documentation in this repo was written by **Google Gemini (Anti
 | [`internal_cheats_and_injectors.md`](internal_cheats_and_injectors.md) | Every DLL injection technique and how EAC detects each one |
 | [`usermode_eac_app.md`](usermode_eac_app.md) | The Ring3 EAC service — startup, heartbeat, anti-debug, backend auth |
 | [`vulnerabilities_and_gaps.md`](vulnerabilities_and_gaps.md) | Every gap found in EAC's detection with severity ratings |
+| [`usermode_techniques.md`](usermode_techniques.md) | Ring3-only techniques that work against EAC without a driver — what EAC can't see |
 
 ---
 
@@ -129,6 +130,7 @@ A quick reference of what we found and roughly where it sits:
 - [Spoofer & HWID Detection →](spoofer_detection.md)
 - [User-Mode EAC App →](usermode_eac_app.md)
 - [Known Detection Gaps →](vulnerabilities_and_gaps.md)
+- [User-Mode Only Techniques →](usermode_techniques.md)
 - [Full Function Address Map →](function_map.md)
 
 ---
