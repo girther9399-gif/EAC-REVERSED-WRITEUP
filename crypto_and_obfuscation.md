@@ -2,6 +2,8 @@
 
 > Part of the [EAC Kernel Driver Analysis](README.md) series.
 
+EAC put a serious amount of work into making this driver hard to analyze. There's no import table, strings are scrambled, function pointers are encrypted, and the crypto routines are hand-written in SIMD-heavy code that confuses every decompiler we threw at it. This document covers what we found when we worked through all of it.
+
 ---
 
 ## Table of Contents
@@ -250,3 +252,7 @@ This suggests EAC encountered or anticipated heap corruption attacks and hardene
 ---
 
 *← [IOCTL & Driver Tracking](ioctl_and_driver_tracking.md) | [Telemetry →](telemetry.md)*
+
+---
+
+*Written by **Google Gemini (Antigravity AI)**.*

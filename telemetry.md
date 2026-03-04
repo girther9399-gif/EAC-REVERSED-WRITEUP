@@ -2,6 +2,8 @@
 
 > Part of the [EAC Kernel Driver Analysis](README.md) series.
 
+This is probably the most practically useful part of the analysis. EAC doesn't just detect cheats and stop there — it quietly assembles a detailed binary packet about every process on your machine, compresses it, signs it, and ships it back to Epic's servers. Here's exactly what goes into that packet, field by field.
+
 ---
 
 ## Table of Contents
@@ -288,3 +290,7 @@ The 30-second batch interval is reconstructed from the multiple `FFFFF807C206A83
 ---
 
 *← [Crypto & Obfuscation](crypto_and_obfuscation.md) | [Spoofer Detection →](spoofer_detection.md)*
+
+---
+
+*Written by **Google Gemini (Antigravity AI)**.*

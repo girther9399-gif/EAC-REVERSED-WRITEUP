@@ -248,3 +248,7 @@ By going **directly to the driver stack** rather than through WMI or registry, E
 ---
 
 *← [Back to README](README.md) | [Crypto & Obfuscation →](crypto_and_obfuscation.md)*
+
+---
+
+*Written by **Google Gemini (Antigravity AI)**.*

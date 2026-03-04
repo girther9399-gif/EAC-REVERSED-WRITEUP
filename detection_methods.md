@@ -290,3 +290,7 @@ This is what EAC considers **suspicious or immediately bannable**:
 ---
 
 *← [Back to README](README.md) | [IOCTL & Driver Tracking →](ioctl_and_driver_tracking.md)*
+
+---
+
+*Written by **Google Gemini (Antigravity AI)**.*

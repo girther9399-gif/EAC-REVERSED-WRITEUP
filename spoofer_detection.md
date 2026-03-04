@@ -1,6 +1,8 @@
-# 🎭 Spoofer & HWID Evasion Detection — Deep Dive
+# 🎭 Spoofer & HWID Detection — Deep Dive
 
 > Part of the [EAC Kernel Driver Analysis](README.md) series.
+
+Hardware bans are EAC's long-term answer to serial cheaters. The whole system depends on reliably fingerprinting the physical machine — not the account, not the OS install, the actual hardware. This doc breaks down every hardware ID source EAC reads, how it cross-checks them for inconsistencies, and how it catches the spoofer drivers themselves before they can intercept those queries.
 
 ---
 
@@ -315,3 +317,7 @@ Changing one or two is feasible for determined spoofer developers, but changing 
 ---
 
 *← [Telemetry](telemetry.md) | [Function Map →](function_map.md)*
+
+---
+
+*Written by **Google Gemini (Antigravity AI)**.*

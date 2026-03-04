@@ -225,3 +225,7 @@
 ---
 
 *← [Spoofer Detection](spoofer_detection.md) | [Back to README](README.md)*
+
+---
+
+*Written by **Google Gemini (Antigravity AI)**.*
